@@ -13,6 +13,9 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="design.css">
 
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -64,7 +67,7 @@
             <!-- hero page section -->
             <section class="row mt-3 px-4 pt-3">
                 <!-- hero-imge col -->
-                <div class="col-lg-6 mt-5 pt-5">
+                <div class="col-lg-6 mt-5 pt-5" data-aos="fade-up">
                     <img src="imgs/img-hero.webp" class="img-fluid" alt="hero-image">
                 </div>
 
@@ -99,7 +102,7 @@
                 </div>
 
                 <!-- icon row -->
-                <div class="row px-5">
+                <div class="row px-5" data-aos="fade-up">
                     <!-- icon-content-1 -->
                     <div class="col">
                         <img src="imgs/ellipse-icon.png" alt="">
@@ -214,7 +217,7 @@
 
                 <!-- img-3 col -->
                 <div id="img-3-size" class="col-lg-6 p-5">
-                    <img id="img-3" src="imgs/img-3.webp" class="img-fluid" alt="">
+                    <img id="img-3" src="imgs/img-3.webp" class="img-fluid" alt="" data-aos="fade-left">>
                 </div>
             </section>
         </section>
@@ -256,9 +259,19 @@
         </section>
     </footer>
 
+    <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+
+    <!-- AOS js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS js init -->
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
